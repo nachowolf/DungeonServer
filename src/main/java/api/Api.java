@@ -21,4 +21,11 @@ public class Api {
 //            return "Added";
         };
     }
+
+    public Route updateCharacter(){
+        return (req, res) -> {
+            return new Gson().toJson(new JsonResponse(Status.SUCCESSS));
+//            return "Added";
+        };
+    }
 }
