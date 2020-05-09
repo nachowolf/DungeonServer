@@ -4,7 +4,6 @@ import ciphers.Atbash;
 import com.google.gson.Gson;
 
 import com.google.gson.JsonElement;
-import dungeon.Character;
 import spark.Route;
 
 public class Api {
